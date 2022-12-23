@@ -6,6 +6,10 @@ Run `:MIP` to open the current file in [Markdown In Preview aka MIP](https://git
 
 - you need to install `mip` first.
 
+## Configuration
+
+- `g:mip_exec_path` - Path to mip executable, defaults to "mip"
+
 ## Supported OSs:
 
 - [x] Linux

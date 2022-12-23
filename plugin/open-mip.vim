@@ -1,5 +1,6 @@
 function! s:OpenInMIP()
-  let l:fcommand = "mip"
+
+  let l:fcommand = get(g:, 'mip_exec_path', "mip")
 
   if filereadable(expand("%"))
     let l:command = l:fcommand . " " . shellescape("%")
